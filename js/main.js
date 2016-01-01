@@ -43,11 +43,11 @@ var replayclickable = false;
 
 //sounds
 var volume = 30;
-var soundJump = new buzz.sound("/android_asset/www/"+"assets/sounds/sfx_bark.mp3");
-var soundScore = new buzz.sound("/android_asset/www/"+"assets/sounds/sfx_point.mp3");
-var soundHit = new buzz.sound("/android_asset/www/"+"assets/sounds/sfx_hit.mp3");
-var soundDie = new buzz.sound("/android_asset/www/"+"assets/sounds/sfx_die.mp3");
-var soundSwoosh = new buzz.sound("/android_asset/www/"+"assets/sounds/sfx_swooshing.mp3");
+var soundJump = new buzz.sound("assets/sounds/sfx_bark.mp3");
+var soundScore = new buzz.sound("assets/sounds/sfx_point.mp3");
+var soundHit = new buzz.sound("assets/sounds/sfx_hit.mp3");
+var soundDie = new buzz.sound("assets/sounds/sfx_die.mp3");
+var soundSwoosh = new buzz.sound("assets/sounds/sfx_swooshing.mp3");
 buzz.all().setVolume(volume);
 
 //loops
